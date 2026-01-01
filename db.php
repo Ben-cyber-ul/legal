@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "law_firm";
+$db = "law_firm"; 
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
