@@ -1,0 +1,223 @@
+/*
+header begins
+*/
+.ebenezer{
+    height: 35px;
+    border-radius: 150px;
+}
+/*
+header end
+======================
+hero section begins
+*/
+/*
+hero section end
+=========================
+main begins
+*/
+#main{
+    width: 100%;
+    height: auto;
+}
+span{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about a{
+    border: 1px solid black;
+    padding: 10px 25px;
+    color: darkgray;
+}
+.about a:hover{
+    border: 1px solid black;
+    padding: 10px 25px;
+    color:white;
+    background-color: grey;  
+}
+/*
+about us ends
+===============================
+practice begins
+*/
+.practice .ulonma{
+    background-image: url(../image/lady-justice-statue-front-courthouse.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.practice .ulonma:hover{
+    background-image: url(../image/lady-justice-statue-front-courthouse.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: obioma 1s linear forwards;
+}
+@keyframes obioma {
+    from{background-size: 600px;}
+    to{background-size: 800px;}
+    
+}
+.practice .ulonma .egoyibo{
+    height: 75px;
+    background-color: grey;
+    float: left;
+    padding: 5px;
+    display: none;
+}
+.practice .ulonma:hover .egoyibo{
+    display: block;
+    opacity: 0.75;
+}
+.practice .ulonma .egoyibo p{
+    padding: 0 5px;
+    float: left;
+    color: white;
+}
+.practice .ulonma .egoyibo a{
+    border: 1px solid white;
+    background-color: white;
+    color: green;
+    padding: 4px 15px;
+    float: right;
+}
+/*
+practice ends
+=================================
+book begins
+*/
+.book input,
+  select,
+ textarea{
+    border-radius: 15px;
+}
+.book button{
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.book button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px green;
+}
+/*
+book consultation ends
+=============================
+our lawyers begins
+*/
+.law img{
+    height: 300px;
+    object-fit: cover;
+}
+.law .card{
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+.law .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 3px 3px green;
+}
+/*
+our lawyers
+=============================
+contact us beginsk
+*/
+.contact.form-control{
+    border-radius: 8px;
+}
+.contact.btn{
+    border-radius: 50px;
+}
+/*
+contact us
+=======================
+faq begins
+*/
+.faq .accordion-button{
+    font-weight: 60;
+    border-radius: 5px;
+}
+.faq .accordion-button:not(.collapse){
+    background-color: lightgrey;
+    color: gray;
+}
+.faq .accordion-item{
+    border: none;
+    margin-bottom: 10px;
+}
+/*
+faq ends
+====================================
+footer begins
+*/
+.emeka{
+    background-color:white;
+    padding: 2px 0;
+    width: 100%;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+.emeka button{
+    background-color: grey;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 25px;
+}
+.emeka button:hover{
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 25px;
+}
+.emeka input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid white;
+}
+.pot span{
+    font-size: 25px;
+    color: green;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,;
+}
+.myfoot ul{
+    padding-left: 0;
+}
+.myfoot ul li{
+    list-style: none;
+    padding: 3px 0;
+}
+.myfoot ul li a{
+text-decoration: none;
+color: inherit;
+}
+.myfoot ul li a:hover{
+text-decoration: none;
+color: darkgray;
+}
+.myfoot h6{
+    color:darkgray;
+}
+.myfoot ul li i{
+    font-size: 12px;
+    color: grey;
+}
+.social a{
+    color: grey;
+}
+.social a i{
+    font-size: 20px;
+}
+.bread{
+    margin-top: 120px !important;
+}
+.oge{
+    margin-top: 100px;
+}
