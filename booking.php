@@ -60,5 +60,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   // ✅ Redirect to thank you page
   header("Location: thank-you.html");
   exit;
-}
-?>
+
+?>;
