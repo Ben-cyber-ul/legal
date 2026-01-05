@@ -61,4 +61,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   header("Location: thank-you.html");
   exit;
 
-?>;
+} else {
+  // Invalid request method
+  http_response_code(405);
+  exit;
+}
+?>
